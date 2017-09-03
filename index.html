@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BW</title>
+	<link rel="stylesheet" href="build/css/bootstrap.min.css">
+	<link rel="stylesheet" href="build/css/bootstrap-datetimepicker.min.css">
+	<link rel="stylesheet" href="build/css/apps.css">
+</head>
+<body>
+	<header class="topnav">
+		<div class="clearfix navgation">
+			<ul class="pull-left list-inline nav_logo">
+				<li>
+					<i class="iconfont icon-menu"></i>
+				</li>
+				<li>
+					<img src="build/image/logo.png" class="logo">
+				</li>
+			</ul>
+			<ul class="pull-right list-inline user">
+				<li>
+					<a>
+						<i class="iconfont icon-gerenzhongxin"></i>
+						<span>admin</span>
+						<i class="iconfont icon-xiala"></i>
+						<ul class="submenu list-unstyled">
+							<li>个人中心</li>
+							<li>退出</li>
+						</ul>
+					</a>
+				</li>
+				<li>
+					<a class="msg">
+						<i class="iconfont icon-xiaoxi"></i>
+						<span>99</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="main clearfix">
+		<div class="layout pull-left">
+			<ul class="list-unstyled">
+				<li ui-sref-active="active">
+					<a ui-sref="data">
+						<i class="iconfont icon-shujuzhongxin"></i>
+						<span>数据中心</span>
+					</a>
+				</li>
+				<li ui-sref-active="active">
+					<a ui-sref="photos">
+						<i class="iconfont icon-ai-user"></i>
+						<span>用户管理</span>
+					</a>
+				</li>
+				<li ui-sref-active="active">
+					<a ui-sref="account">
+						<i class="iconfont icon-yonghuxinxi"></i>
+						<span>账户管理</span>
+					</a>
+				</li>
+				<li ui-sref-active="active">
+					<a>
+						<i class="iconfont icon-yonghusuoyou"></i>
+						<span>客户管理</span>
+					</a>
+				</li>
+				<li ui-sref-active="active" class="more">
+					<a>
+						<i class="iconfont icon-shujutongji"></i>
+						<span>统计报表</span>
+						<i class="iconfont icon-xiala"></i>
+					</a>
+				</li>
+				<li ui-sref-active="active">
+					<a>
+						<i class="iconfont icon-shenherenwu"></i>
+						<span>任务管理</span>
+					</a>
+				</li>
+				<li class="menu more" ui-sref-active="active">
+					<a>
+						<i class="iconfont icon-shezhi-copy-copy"></i>
+						<span>系统设置</span>
+						<i class="iconfont icon-xiala"></i>
+					</a>
+					<ul class="submenu list-unstyled">
+						<li ui-sref-active="active">
+							<a ui-sref="setting">基本设置</a>
+						</li>
+						<li ui-sref-active="active">
+							<a ui-sref="usersetting">用户设置</a>
+						</li>
+						<li ui-sref-active="active">
+							<a>账户设置</a>
+						</li>
+						<li ui-sref-active="active">
+							<a>返佣设置</a>
+						</li>
+						<li ui-sref-active="active">
+							<a>操作日志</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="main-container">
+			<div ui-view class="view_main">
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p class="text-right">
+			Email: xxxx@hztxt.com | Tel: 400-12345 | Address: HANGZHOU | www.hztxt.com
+		</p>
+	</footer>
+</body>
+<script type="text/javascript" data-main='build/js/bootstrap.js' src='build/js/require.js'></script>
+<script type="text/javascript" src="build/js/bootstrap.js"></script>
+<script type="text/javascript" src="build/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="build/js/common.js"></script>
+</html>

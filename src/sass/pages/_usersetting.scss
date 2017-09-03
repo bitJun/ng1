@@ -1,0 +1,55 @@
+.usersetting_view {
+    background: #ffffff;
+    padding: 0px 20px;
+    .list-inline {
+        padding: 30px 0px 20px 0px;
+        border-bottom: 1px solid #e1e3e4;
+    }
+    .list-inline li {
+        margin-right: 50px;
+        font-size: 18px;
+    }
+    .list-inline li:first-child {
+        font-size: 14px;
+    }
+    .list-inline li a {
+        display: block;
+        color: #98a2ad;
+    }
+    .list {
+        padding: 0px 10px;
+        overflow: scroll;
+    }
+    .list li {
+        border-bottom: 1px dashed #e1e3e4;
+    }
+    .lits li:last-child {
+        border: 0px;
+    }
+    .list {
+       border-bottom: 1px solid #e1e3e4;
+    }
+    .list li .title {
+        color: #54b6cb;
+        padding: 29px 0px 16px 0px;
+        font-size: 18px;
+    }
+    .list li .title span {
+        margin-left: 16px;
+        color: #98a2ad;
+        font-size: 14px;
+    }
+    .list li .content {
+        padding-right: 60px;
+        position: relative;
+    }
+    .list li .content .icon-guanbi {
+        position: absolute;
+        right: 20px;
+        top: 0px;
+        font-size: 20px;
+    }
+    .pagesize {
+        padding-top: 25px;
+    }
+}

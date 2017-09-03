@@ -1,0 +1,47 @@
+<div class="usersetting_view">
+    <ul class="list-inline clearfix">
+        <li>
+            <a>
+                <i class="iconfont icon-arrow"></i>返回
+            </a>
+        </li>
+        <li>
+            <a>
+                未读消息<span>(20)</span>
+            </a>
+        </li>
+        <li class="active">
+            <a>
+                已读消息
+            </a>
+        </li>
+        <li class="pull-right">
+            <button class="btn">
+                发布公告
+            </button>
+        </li>
+    </ul>
+    <div class="list">
+        <ul class="list-unstyled">
+            <li ng-repeat="item in json">
+                <p class="title">{{item.title}}<span>{{item.create}}</span></p>
+                <p class="content">{{item.content}}<i class="iconfont icon-guanbi"></i></p>
+            </li>
+        </ul>
+    </div>
+    <div class="clearfix">
+        <p class="pull-left pagesize">
+            共{{pages.totalnum}}条，第{{pages.current}}页，共{{pages.totalpage}}页
+        </p>
+        <nav aria-label="..." class="pull-right">
+            <ul class="pagination">
+                <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>

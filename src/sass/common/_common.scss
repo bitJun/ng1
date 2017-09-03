@@ -1,0 +1,208 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background: #e9edf4;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+ul {
+    margin: 0px;
+}
+header {
+    background: #ffffff;
+}
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #ffffff;
+}
+footer p {
+    margin: 0px;
+    padding-right: 15px;
+    height: 30px;
+    line-height: 30px;
+    border-top: 1px solid #e5e5e5;
+    font-size: 12px;
+    color: #98a2ad;
+}
+.list-inline {
+    margin-left: 0px;
+}
+.list-inline>li {
+    padding: 0px;
+}
+.topnav {
+    .navgation {
+        height: 65px;
+    }
+    .navgation ul {
+        height: 100%;
+    }
+    .navgation ul li {
+        height: 100%;
+        line-height: 65px;
+    }
+    .nav_logo li:first-child {
+        width: 65px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .logo {
+        height: 40px;
+    }
+    .icon-menu {
+        font-size: 22px;
+        color: #98a2ad;
+    }
+    .icon-menu:hover {
+        cursor: pointer;
+    }
+    .user {
+        margin-right: 80px;
+    }
+    .user .iconfont {
+        font-size: 18px;
+        width: 20px;
+        color: #54b6cb;
+    }
+    .user .icon-gerenzhongxin {
+        margin-right: 10px;
+    }
+    .user li:first-child {
+        margin-right: 20px;
+    }
+    .user li:last-child {
+        position: relative;
+    }
+    .user a {
+        position: relative;
+        display: block;
+    }
+    .user .submenu {
+        display: none;
+        position: absolute;
+        top: 65px;
+        left: 0px;
+        text-align: center;
+    }
+    .user a:hover .submenu {
+        display: block;
+    }
+    .user .submenu li {
+        height: 32px;
+        line-height:32px;
+    }
+    .msg {
+        display: block;
+    }
+    .msg span {
+        position: absolute;
+        line-height: 12px;
+        position: absolute;
+        right: -12px;
+        top: 12px;
+        width: 24px;
+        font-size: 12px;
+        padding: 1px 0px;
+        text-align: center;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        color: #000;
+        background: #ff0000;
+        color: #ffffff;
+    }
+}
+.main {
+    .layout {
+        width: 220px;
+        height: 100%;
+        position: fixed;
+        background: #4c5b6b;
+        transition-duration: 0.4s;
+        z-index: 999;
+    }
+    .layout li {
+        height: 52px;
+        line-height:52px;
+        font-size: 14px;
+        color: #98a2ad;
+    }
+    .layout li a {
+        color: #98a2ad;
+        display: block;
+        text-indent: 52px;
+        text-align: left;
+    }
+    .layout li:hover {
+        background-color: #2e4558;
+        cursor: pointer;
+    }
+    .layout li i {
+        font-size: 16px;
+    }
+    .layout .active {
+        background: #54b6cb;
+    }
+    .layout .active a {
+        color: #ffffff;
+    }
+    .layout li span {
+        margin: 0px 12px;
+        width: 18px;
+    }
+    .submenu .active {
+        background: #54b6cb;
+        color: #ffffff;
+    }
+    .layout .menu {
+        position: relative;
+    }
+    .submenu {
+        display: none;
+        position: absolute;
+        top: 52px;
+        width: 100%;
+        background: #4c5b6b;
+    }
+    .submenu a {
+        display: block;
+        text-align: left;
+        text-indent: 40px;
+    }
+    .modal_left {
+        width: 65px !important;
+        transition-duration: 0.4s;
+    }
+    /*.modal_left li a span {
+        display: none;
+    }*/
+    .modal_left li a i:last-child {
+        display: none;
+    }
+    .modal_left li a i {
+        font-size: 22px;
+    }
+    .modal_left li a {
+        text-indent: 0px;
+        text-align: center;
+    }
+    .main-container {
+        padding: 15px 15px 15px 235px;
+        transition-duration: 0.4s;
+    }
+    .main_modal_left {
+        padding: 15px 15px 15px 80px;
+        transition-duration: 0.4s;
+    }
+    .main-container .view_main {
+        background: #ffffff;
+    }
+}
